@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="25">
+        <Style id="32">
+            <LineStyle id="33">
+                <color>FF49be25</color>
+                <colorMode>normal</colorMode>
+                <width>3</width>
+            </LineStyle>
+            <PolyStyle id="34">
+                <color>CC000000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <open>0</open>
+        <Placemark id="27">
+            <name>Site A</name>
+            <Point id="26">
+                <coordinates>-118.003075,33.991655,448.48001337600004</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>Site B</name>
+            <Point id="28">
+                <coordinates>-117.97752,33.989346,183.48000489600003</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>LOS</name>
+            <styleUrl>#32</styleUrl>
+            <LineString id="30">
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>-117.97752,33.989346,183.48000489600003 -117.98115997997013,33.989675410205216,221.33714896457144 -117.98479998815611,33.99000471322114,259.1942930331429 -117.9884400245493,33.990333909045646,297.0514371017143 -117.99208008914114,33.99066299767655,334.90858117028574 -117.99572018192295,33.99099197911172,372.76572523885716 -117.99936030288616,33.99132085334898,410.62286930742863 -118.003075,33.991655,448.48001337600004</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>
